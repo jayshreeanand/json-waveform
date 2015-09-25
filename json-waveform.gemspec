@@ -21,6 +21,6 @@ Gem::Specification.new do |s|
 
   s.executables << "json-waveform"
 
-  s.add_dependency "ruby-audio", "~> 1.6.0"
+  s.add_dependency "ruby-audio-heroku"
   s.add_development_dependency "minitest", "~> 4"
 end
